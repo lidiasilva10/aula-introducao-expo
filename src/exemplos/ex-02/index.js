@@ -12,7 +12,9 @@ function Exemplo2 () {
                 <Image source={img} style={styles.imagem} />
                 <Mensagem titulo={'ERRO'} mensagem={'você não clicou corretamente!'}/>    
                 <Mensagem titulo={'SUCESSO'} mensagem={'Acesso permitido'}/>    
-                <Mensagem titulo={'AVISO'} mensagem={'o tempo acabou'}/>    
+                <Mensagem titulo={'AVISO'} mensagem={'o tempo acabou'}/>  
+                
+                  
         </View>
     );
 }
