@@ -8,7 +8,7 @@ import Exemplo1 from './src/exemplos/ex-01';
 
 // Atividades
 import Atividade1 from './src/exemplos/atividades/atividade-01';
-import Atividade2 from './src/exemplos/ex-02/Ativd2';
+import Atividade2 from './src/atividade02camisa';
 
 export default function App() {
   return (
