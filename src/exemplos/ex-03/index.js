@@ -11,6 +11,14 @@ function Exemplo3() {
         setNum(num + 1);
     }
 
+    function handleAtuaState () {
+        setNum(num - 1);
+    }
+
+    function handleAtualiState () {
+        setNum(0);
+    } 
+
     const handleOutroJeitoFuncao = () => {
         Alert.alert('Título', 'Texto mensagem', [
             {
@@ -24,21 +32,23 @@ function Exemplo3() {
     return (
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 3</Text>
-            <Text style={styles.texto}>Variáveis vs State</Text>
-            <View style={styles.botaoAlert}>
-                <Button
-                    onPress={handleOutroJeitoFuncao}
-                    title="Alerta"
-                    color="deepskyblue"
-                    accessibilityLabel="Mensagem de alerta"                     
-                />
-            </View>
+            <View style={styles.grupo}>
+            <TouchableOpacity style={styles.botao} onPress={handleAtualizaState}>
+                <Text style={styles.txtBotao}>+1</Text>
+            </TouchableOpacity>
 
             <Text style={styles.numero}>{num}</Text> 
 
-            <TouchableOpacity style={styles.botao} onPress={handleAtualizaState}>
-                <Text style={styles.txtBotao}>Adicionar +1</Text>
+            <TouchableOpacity style={styles.botao} onPress={handleAtuaState}>
+                <Text style={styles.txtBotao}>-1</Text>
             </TouchableOpacity>
+
+            </View>
+
+            <TouchableOpacity style={styles.botao} onPress={handleAtualiState}>
+                <Text style={styles.txtBotao}>Zerar</Text>
+            </TouchableOpacity>
+
 
         </View>
     );

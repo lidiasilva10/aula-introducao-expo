@@ -8,6 +8,10 @@ const styles = StyleSheet.create({
         flex: 1, 
         alignItems: 'center', 
         borderRadius: 20,
+        display:'flex',
+        // 
+        justifyContent:'center',
+        alignItems: 'center',
     }, 
     titulo: {
         fontSize: RFPercentage(3), 
@@ -38,7 +42,7 @@ const styles = StyleSheet.create({
     }, 
     botao: {
         backgroundColor: 'deepskyblue', 
-        width: '70%', 
+        width: '25%', 
         // height: RFPercentage(4), 
         borderRadius: RFPercentage(2), 
         alignItems: 'center', 
@@ -50,6 +54,12 @@ const styles = StyleSheet.create({
         color: '#fafafa', 
         fontWeight: 'bold', 
         letterSpacing: 1.5,
+    },
+
+    grupo: {
+        flexDirection: 'row',
+        display: 'flex',
+
     },
 });
 
