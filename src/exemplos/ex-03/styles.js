@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
         alignItems: 'center', 
         borderRadius: 20,
         display:'flex',
-        // 
-        justifyContent:'center',
+        //         justifyContent:'center',
         alignItems: 'center',
     }, 
     titulo: {
