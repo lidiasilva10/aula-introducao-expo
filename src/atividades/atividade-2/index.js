@@ -4,10 +4,10 @@ import styles from './styles';
 
 import Card from './card';
 
-import img1 from '../../assets/camisaBranca.png';
-import img2 from '../../assets/camisaPreta.png';
-import img3 from '../../assets/camisaListrada.png';
-import img4 from '../../assets/camisaBordo.png';
+import img1 from '../../../assets/camisaBranca.png';
+import img2 from '../../../assets/camisaPreta.png';
+import img3 from '../../../assets/camisaListrada.png';
+import img4 from '../../../assets/camisaBordo.png';
 
 
 function Atividade2 () {
