@@ -4,13 +4,26 @@ import styles from '../../ex-4/styles';
 
 export default function Index() {
 
+    const [textoEscrito, setTextoEscrito] = React.useState('');
+    const [mensagem, setMensagem] = React.useState('Texto programado');
+
     return(
         <View style={styles.container}>
-            <Text style={styles.paragraph}>
-                Exemplo 4
+            <Text style={styles.txtSaida}>
+               {mensagem} 
             </Text>
-        </View>
 
+        <TextInput
+         style={styles.txtEntrada}
+        onChangeText={(entrada) => setTextoEscrito(entrada)}
+        value={textoEscrito}
+        />
+
+        <TouchableOpacity style={styles.button} onPress={() => setMensagem(textoEscrito)}>
+            <Text style={styles.txtButton}>Exibir</Text>
+        </TouchableOpacity>
+
+        </View>
     );
 }
 
