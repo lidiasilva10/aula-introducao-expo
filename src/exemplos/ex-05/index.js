@@ -3,6 +3,21 @@ import {View, Text, TextInput } from 'react-native';
 import styles from './styles';
 
 function Exemplo5 (){
+
+    const [n1, setN1]= useState(0);
+    const [n2, setN2]= useState(0);
+    const [total, setTotal]= useState(0); 
+  
+    function Soma() {
+      setTotal(parseFloat(n1) + parseFloat(n2));
+    }
+  
+    function Soma() {
+     const conta = parseFloat(n1) + parseFloat(n2);
+     setTotal(conta.toString());
+    
+    }
+  
     return (
        <View style={styles.container}>
         <Text style={styles.paragraph}> Exemplo 5</Text>
