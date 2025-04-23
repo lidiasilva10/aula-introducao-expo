@@ -1,4 +1,5 @@
-import {View, Text, TextInput } from 'react-native';
+import React, { useState } from 'react';
+import {View, Text, TextInput, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
@@ -29,7 +30,8 @@ function Exemplo5 (){
         value={n1}
         />
 
-        <text styles={styles.TxtSaida}>+</text>
+        <Text styles={styles.TxtSaida}>+</Text>
+    
 
         <Text style={styles.textLabal}> 2º número</Text>
         <TextInput 
@@ -46,10 +48,28 @@ function Exemplo5 (){
          editable={false}
             value={total}
         />
-
+        <View style={styles.operadores}>
         <TouchableOpacity style={styles.button} onPress={() => Soma()}>
-            <Text style={styles.txtButton}> +</Text>
+            <Text style={styles.txtButton}>+</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={() => Sub()}>
+            <Text style={styles.txtButton}>-</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button} onPress={() => Mult()}>
+            <Text style={styles.txtButton}>*</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={() => Div()}>
+            <Text style={styles.txtButton}>/</Text>
+        </TouchableOpacity>
+
+        </View>
+
+        <TouchableOpacity style={styles.button} onPress={() =>(handerZerar)}>
+            <Text style={styles.txtButton}>Zerar</Text>
+        </TouchableOpacity>
+
+
 
         </View>
 

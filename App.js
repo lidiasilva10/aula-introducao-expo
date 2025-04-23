@@ -11,7 +11,7 @@ import Exemplo3 from './src/exemplos/ex-03';
 import Exemplo4 from './src/exemplos/ex-4';
 import Exemplo5 from './src/exemplos/ex-05'
 
-// Atividadesr
+// Atividades
 import Atividade2 from './src/atividades/atividade-2';
 import Atividade3 from './src/atividades/atividade-03';
 import Atividade4 from './src/atividades/atividade-04';
