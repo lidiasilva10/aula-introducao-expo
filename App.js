@@ -4,23 +4,29 @@ import {StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
 
 
+
 // Exemplos
  import Exemplo1 from './src/exemplos/ex-01';
 import Exemplo2 from './src/exemplos/ex-02';
 import Exemplo3 from './src/exemplos/ex-03';
 import Exemplo4 from './src/exemplos/ex-4';
-import Exemplo5 from './src/exemplos/ex-05'
+//import Exemplo5 from './src/exemplos/ex-05';
+import Exemplo6 from './src/exemplos/ex-06';
 
 // Atividades
 import Atividade2 from './src/atividades/atividade-2';
 import Atividade3 from './src/atividades/atividade-03';
 import Atividade4 from './src/atividades/atividade-04';
+import Index from './src/atividades/atividade-06/index';
+
+
+
 
 
 export default function App() {
   return (
       <View style={styles.container}>
-       <Exemplo5/>
+       <Index/>
        <StatusBar style="light"/>
       </View>
     );
