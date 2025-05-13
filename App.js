@@ -17,7 +17,7 @@ import Exemplo6 from './src/exemplos/ex-06';
 import Atividade2 from './src/atividades/atividade-2';
 import Atividade3 from './src/atividades/atividade-03';
 import Atividade4 from './src/atividades/atividade-04';
-import Index from './src/atividades/atividade-06/index';
+import Exemplo6 from './src/exemplos/ex-06';
 
 
 
