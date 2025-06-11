@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#B71C1C',
+    backgroundColor: 'rgb(228, 184, 228)',
     // alignItems: 'center',
     padding: 8,
     paddingTop: Constants.statusBarHeight,
