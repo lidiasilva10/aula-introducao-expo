@@ -12,7 +12,7 @@ export default function Atividades() {
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.botao}>
-                <Text>EAtividade 2</Text>
+                <Text>Atividade 2</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.botao}>
